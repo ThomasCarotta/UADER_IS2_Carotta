@@ -27,6 +27,17 @@ numeros = sys.argv[1].split('-')
 desde = int(numeros[0])
 hasta = int(numeros[1])
 
+if desde < 1:
+    print("El límite inferior debe ser mayor o igual a 1.")
+    sys.exit()
+elif hasta > 60:
+    print("El límite superior no puede ser mayor que 60.")
+    sys.exit() 
+elif desde > hasta:
+    print("El límite inferior no puede ser mayor que el límite superior.")
+    sys.exit() 
+
+
 if desde >= hasta:
     print("El primer número debe ser menor que el segundo número en el rango.")
     sys.exit(1)
