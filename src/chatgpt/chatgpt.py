@@ -1,6 +1,6 @@
 '''Este módulo proporciona funciones para interactuar con el modelo de chatGPT.'''
 import argparse #Se importa la libreria argparse
-from openai import OpenAI #Se importa la libreria openAI
+from openai import OpenAI #Se importa la libreria openai
 
 # Inicialización del cliente de OpenAI
 
