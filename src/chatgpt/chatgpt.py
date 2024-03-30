@@ -3,7 +3,8 @@ import argparse #Se importa la libreria argparse
 from openai import OpenAI #Se importa la libreria openai
 
 # Inicialización del cliente de OpenAI
-client=OpenAI(api_key="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")
+apenai_api_key = "Ingresa tu api key aca"
+client=OpenAI(api_key=apenai_api_key)
 
 # Definición de variables de contexto y usuario
 context = "Eres un astrónomo profesional"
