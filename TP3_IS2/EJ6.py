@@ -42,7 +42,7 @@ class Mage(Prototype):
     def clone(self):
         return copy.deepcopy(self) 
 
-os.system("clr")
+os.system("cls")
 print("Ejemplo de taller para patrón prototipo")
 
 dt = datetime.now()
