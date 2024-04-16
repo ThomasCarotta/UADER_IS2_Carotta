@@ -6,7 +6,7 @@ import os
 
 class Prototype(ABC):
     def __init__(self):
-        time.sleep(3)
+        time.sleep(2)
         self.height = None
         self.age = None
         self.defense = None
@@ -19,7 +19,7 @@ class Prototype(ABC):
 class Shopkeeper(Prototype):
     def __init__(self, height, age, defense, attack):
         super().__init__()
-        time.sleep(3)
+        time.sleep(2)
         self.height = height
         self.age = age
         self.defense = defense
@@ -55,7 +55,7 @@ print('Atributos: ' + ', '.join("%s: %s" % item for item in vars(shopkeeper).ite
 
 dt = datetime.now()
 print('Instanciando ahora trader: ', dt)
-for i in range(5):
+for i in range(20):
     shopkeeper = Shopkeeper(180, 22, 5, 8)
     dt = datetime.now()
     print(f'Creo Shopkeeper NPC {i} at: ', dt)
