@@ -1,0 +1,24 @@
+{
+        "bancos": {
+                "Galicia": {
+                "nombre": "Galicia",
+                "saldo": 100000,
+                "token": "HOLA1234"
+                },
+                "Entre Rios": {
+                "nombre": "Entre Rios",
+                "saldo": 120000,
+                "token": "CHAU6789"
+                },
+                "Santander": {
+                "nombre": "Santander",
+                "saldo": 250000,
+                "token": "SHRF2754"
+                },
+                "Nacion": {
+                "nombre": "Banco Nacion",
+                "saldo": 325000,
+                "token": "DLTV1754"
+                }
+        }
+}
